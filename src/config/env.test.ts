@@ -62,4 +62,11 @@ describe("parseEnv", () => {
   it("defaults the briefing model to one that accepts the effort setting", () => {
     expect(parseEnv(base).ANTHROPIC_MODEL).toBe("claude-opus-5-5");
   });
+
+  it("treats a blank secret as unset, as docker compose passes it", () => {
+    const config = parseEnv({ SCAN_PROVIDER: "fake", API_TOKEN: "", ANTHROPIC_API_KEY: "  " });
+    expect(config.API_TOKEN).toBeUndefined();
+    expect(config.ANTHROPIC_API_KEY).toBeUndefined();
+    expect(() => parseEnv({ SCAN_PROVIDER: "http", API_TOKEN: "" })).toThrow(/API_TOKEN/);
+  });
 });

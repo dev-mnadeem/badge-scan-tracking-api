@@ -11,6 +11,16 @@ const LOG_LEVELS = ["fatal", "error", "warn", "info", "debug", "trace"] as const
  */
 export const SCAN_PROVIDERS = ["http", "fake"] as const;
 
+/**
+ * A secret that is set but blank means "not configured". Compose passes
+ * `API_TOKEN: ${API_TOKEN:-}` through as an empty string, and an `.env` line
+ * like `API_TOKEN=` does the same; neither should fail startup on its own.
+ */
+const optionalSecret = z.preprocess(
+  (value) => (typeof value === "string" && value.trim() === "" ? undefined : value),
+  z.string().min(1).optional(),
+);
+
 function isTimestamp(value: string): boolean {
   try {
     toUtcMs(value);
@@ -26,7 +36,7 @@ const EnvSchema = z
 
     SCAN_PROVIDER: z.enum(SCAN_PROVIDERS).default("http"),
     API_URL: z.string().url().default("https://portal.eventscloud.com/api/scan"),
-    API_TOKEN: z.string().min(1).optional(),
+    API_TOKEN: optionalSecret,
     API_TIMEOUT_MS: z.coerce.number().int().positive().default(30_000),
     SCAN_PAGE_SIZE: z.coerce.number().int().positive().default(DEFAULT_SCAN_PAGE_SIZE),
     SCAN_FIXTURE_PATH: z.string().default("./fixtures/sample-scans.json"),
@@ -56,7 +66,7 @@ const EnvSchema = z
     WS_LEADERBOARD_LIMIT: z.coerce.number().int().positive().max(1000).default(100),
 
     INSIGHTS_PROVIDER: z.enum(["local", "anthropic"]).default("local"),
-    ANTHROPIC_API_KEY: z.string().min(1).optional(),
+    ANTHROPIC_API_KEY: optionalSecret,
     ANTHROPIC_MODEL: z.string().min(1).default("claude-opus-5-5"),
 
     LOG_LEVEL: z.enum(LOG_LEVELS).default("info"),
