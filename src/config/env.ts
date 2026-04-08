@@ -57,7 +57,7 @@ const EnvSchema = z
 
     INSIGHTS_PROVIDER: z.enum(["local", "anthropic"]).default("local"),
     ANTHROPIC_API_KEY: z.string().min(1).optional(),
-    ANTHROPIC_MODEL: z.string().default("claude-sonnet-4-5"),
+    ANTHROPIC_MODEL: z.string().min(1).default("claude-opus-5-5"),
 
     LOG_LEVEL: z.enum(LOG_LEVELS).default("info"),
   })

@@ -58,4 +58,8 @@ describe("parseEnv", () => {
       "2026-02-04",
     );
   });
+
+  it("defaults the briefing model to one that accepts the effort setting", () => {
+    expect(parseEnv(base).ANTHROPIC_MODEL).toBe("claude-opus-5-5");
+  });
 });
