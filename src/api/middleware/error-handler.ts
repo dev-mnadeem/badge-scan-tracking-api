@@ -1,5 +1,5 @@
 import type { NextFunction, Request, Response } from "express";
-import { ZodError } from "zod";
+import { ZodError, z } from "zod";
 import { logger } from "../../utils/logger.js";
 import { AppError } from "../errors/app-error.js";
 import { sendFailure } from "../utils/respond.js";
@@ -27,7 +27,7 @@ export function errorHandler(
     sendFailure(res, 422, {
       code: "VALIDATION_ERROR",
       message: "Validation failed",
-      details: err.flatten(),
+      details: z.flattenError(err),
     });
     return;
   }
