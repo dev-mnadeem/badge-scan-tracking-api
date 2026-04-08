@@ -35,9 +35,14 @@ export interface PollCycleResult {
  * Keeps only scans that carry a usable booth name. The upstream feed contains
  * rows whose "Booth Name" custom field is absent or blank — they identify no
  * booth, so they cannot be attributed and are not counted.
+ *
+ * `customFields` is a list of objects with no fixed order, so every entry is
+ * searched rather than only the first.
  */
 export function toValidScan(raw: RawScan): Scan | null {
-  const boothName = raw.customFields?.[0]?.["Booth Name"]?.trim();
+  const boothName = raw.customFields
+    ?.map((fields) => fields["Booth Name"]?.trim())
+    .find((name) => name);
   if (!boothName) {
     return null;
   }

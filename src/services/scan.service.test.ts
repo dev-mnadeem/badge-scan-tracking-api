@@ -66,6 +66,16 @@ describe("toValidScan", () => {
     expect(toValidScan({ ...base, customFields: [{}] })).toBeNull();
     expect(toValidScan(base)).toBeNull();
   });
+
+  it("finds the booth name when it is not the first custom field", () => {
+    expect(
+      toValidScan({
+        badgeId: "b1",
+        scanDate: "2026-02-04T09:00:00",
+        customFields: [{ Company: "Acme" }, { "Booth Name": "" }, { "Booth Name": "Splunk Cafe" }],
+      }),
+    ).toEqual({ badgeId: "b1", boothName: "Splunk Cafe", scanDate: "2026-02-04T09:00:00" });
+  });
 });
 
 describe("maxScanDate", () => {
