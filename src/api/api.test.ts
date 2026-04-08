@@ -9,10 +9,9 @@ import { createNullBroadcaster } from "../websocket/broadcaster.js";
 import { createInsightService, createLocalInsightProvider } from "../services/insight.service.js";
 import { createScanRepository } from "../repositories/scan.repository.js";
 import { createPlayerRepository } from "../repositories/player.repository.js";
-import { syncHandler } from "./middleware/async-handler.js";
 import { errorHandler } from "./middleware/error-handler.js";
 import { notFoundHandler } from "./middleware/not-found.js";
-import { UnauthorizedError } from "./errors/index.js";
+import { BadRequestError } from "./errors/index.js";
 
 vi.mock("../utils/logger.js", () => ({
   logger: { info: vi.fn(), warn: vi.fn(), error: vi.fn(), debug: vi.fn() },
@@ -195,26 +194,33 @@ describe("error envelope", () => {
 
   function errorApp(): express.Express {
     const instance = express();
-    instance.get(
-      "/__test/unauthorized",
-      syncHandler(() => {
-        throw new UnauthorizedError("Invalid token");
-      }),
-    );
-    instance.get(
-      "/__test/boom",
-      syncHandler(() => {
-        throw new Error("boom");
-      }),
-    );
+    instance.get("/__test/bad-request", () => {
+      throw new BadRequestError("Unknown sort key", { sort: "nope" }, "BAD_SORT");
+    });
+    instance.get("/__test/boom", () => {
+      throw new Error("boom");
+    });
+    instance.get("/__test/async-boom", async () => {
+      await Promise.resolve();
+      throw new Error("async boom");
+    });
     instance.use(notFoundHandler);
     instance.use(errorHandler);
     return instance;
   }
 
   it("maps an AppError to its status and code", async () => {
-    const res = await request(errorApp()).get("/__test/unauthorized").expect(401);
-    expect(res.body.error).toMatchObject({ code: "UNAUTHORIZED", message: "Invalid token" });
+    const res = await request(errorApp()).get("/__test/bad-request").expect(400);
+    expect(res.body.error).toEqual({
+      code: "BAD_SORT",
+      message: "Unknown sort key",
+      details: { sort: "nope" },
+    });
+  });
+
+  it("routes a rejected async handler to the error envelope", async () => {
+    const res = await request(errorApp()).get("/__test/async-boom").expect(500);
+    expect(res.body).toMatchObject({ success: false, error: { code: "INTERNAL_ERROR" } });
   });
 
   it("hides internals of an unexpected error unless API_DEBUG_ERRORS=true", async () => {

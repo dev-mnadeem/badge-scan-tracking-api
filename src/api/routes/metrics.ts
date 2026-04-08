@@ -1,6 +1,5 @@
 import { Router } from "express";
 import type Database from "better-sqlite3";
-import { syncHandler } from "../middleware/async-handler.js";
 import { sendSuccess } from "../utils/respond.js";
 import { createScanRepository } from "../../repositories/scan.repository.js";
 import { createCheckpointRepository } from "../../repositories/checkpoint.repository.js";
@@ -25,22 +24,19 @@ export function createMetricsRouter(options: MetricsRouterOptions): Router {
   const scanRepo = createScanRepository(db);
   const checkpointRepo = createCheckpointRepository(db);
 
-  router.get(
-    "/metrics",
-    syncHandler((_req, res) => {
-      sendSuccess(res, {
-        uptimeSeconds: Math.round(process.uptime()),
-        scanProvider: scanProviderName,
-        poll: metrics.snapshot(),
-        checkpoint: {
-          lastScanDate: checkpointRepo.getLastScanDate(),
-          updatedAt: checkpointRepo.getLastScanDateUpdatedAt(),
-        },
-        storage: { scansStored: scanRepo.countScans() },
-        websocket: { connectedClients: broadcaster.clientCount() },
-      });
-    }),
-  );
+  router.get("/metrics", (_req, res) => {
+    sendSuccess(res, {
+      uptimeSeconds: Math.round(process.uptime()),
+      scanProvider: scanProviderName,
+      poll: metrics.snapshot(),
+      checkpoint: {
+        lastScanDate: checkpointRepo.getLastScanDate(),
+        updatedAt: checkpointRepo.getLastScanDateUpdatedAt(),
+      },
+      storage: { scansStored: scanRepo.countScans() },
+      websocket: { connectedClients: broadcaster.clientCount() },
+    });
+  });
 
   return router;
 }

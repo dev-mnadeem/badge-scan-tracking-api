@@ -27,27 +27,9 @@ export class BadRequestError extends AppError {
   }
 }
 
-export class UnauthorizedError extends AppError {
-  constructor(message = "Unauthorized", details: unknown = null, code = "UNAUTHORIZED") {
-    super(401, code, message, details);
-    this.name = "UnauthorizedError";
-  }
-}
-
 export class NotFoundError extends AppError {
   constructor(message: string, details: unknown = null, code = "NOT_FOUND") {
     super(404, code, message, details);
     this.name = "NotFoundError";
-  }
-}
-
-export class ServiceUnavailableError extends AppError {
-  constructor(
-    message = "Service unavailable",
-    details: unknown = null,
-    code = "SERVICE_UNAVAILABLE",
-  ) {
-    super(503, code, message, details);
-    this.name = "ServiceUnavailableError";
   }
 }
