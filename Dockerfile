@@ -1,23 +1,24 @@
 # syntax=docker/dockerfile:1
 
 # ---- build stage -----------------------------------------------------------
-# better-sqlite3 is a native addon. The build stage keeps the toolchain needed
-# to compile it when no prebuilt binary matches the platform.
+# better-sqlite3 is a native addon that ships prebuilt binaries for musl x64 and
+# arm64 and loads them at runtime. npm would still run an implicit
+# `node-gyp rebuild` because the package contains binding.gyp, which needs a
+# compiler this image does not have, so install scripts are skipped. Nothing
+# the image uses needs one: only the dev-only esbuild and fsevents declare one.
 FROM node:22-alpine AS build
 WORKDIR /app
 
-RUN apk add --no-cache python3 make g++
-
 COPY package.json package-lock.json ./
-RUN npm ci
+RUN npm ci --ignore-scripts
 
 COPY tsconfig.json tsconfig.build.json ./
 COPY index.ts ./
 COPY src ./src
 RUN npm run build
 
-# Reinstall with production dependencies only, keeping the compiled addon.
-RUN npm ci --omit=dev
+# Reinstall with production dependencies only.
+RUN npm ci --omit=dev --ignore-scripts
 
 # ---- runtime stage ---------------------------------------------------------
 FROM node:22-alpine AS runtime
