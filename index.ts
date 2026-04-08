@@ -1,4 +1,3 @@
-import "dotenv/config";
 import http from "node:http";
 import { loadConfig } from "./src/config/env.js";
 import { openDatabase } from "./src/db/client.js";
