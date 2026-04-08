@@ -1,0 +1,15 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.local
+
+# SQLite database and its runtime sidecar files. The -wal/-shm pair is written
+# whenever the DB is open in WAL mode and must never be committed.
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+.DS_Store
