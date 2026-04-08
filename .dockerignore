@@ -2,9 +2,12 @@ node_modules
 dist
 coverage
 .git
+.github
 .env
-.env.local
+.env.*
 *.db
 *.db-shm
 *.db-wal
 docs
+project_venv
+*.log
