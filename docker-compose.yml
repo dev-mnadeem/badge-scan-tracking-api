@@ -1,0 +1,28 @@
+services:
+  api:
+    build: .
+    image: badge-scan-tracking-api
+    restart: unless-stopped
+    ports:
+      - "${PORT:-3000}:3000"
+    environment:
+      PORT: "3000"
+      DB_PATH: /data/fankave.db
+      LOG_LEVEL: ${LOG_LEVEL:-info}
+      # Defaults to the offline fixture provider so `docker compose up` works
+      # with no credentials. Set SCAN_PROVIDER=http and API_TOKEN for live data.
+      SCAN_PROVIDER: ${SCAN_PROVIDER:-fake}
+      SCAN_FIXTURE_PATH: /app/fixtures/sample-scans.json
+      API_URL: ${API_URL:-https://portal.eventscloud.com/api/scan}
+      API_TOKEN: ${API_TOKEN:-}
+      POLL_INTERVAL_CRON: ${POLL_INTERVAL_CRON:-*/5 * * * *}
+      EVENT_START_DATE: ${EVENT_START_DATE:-2026-02-04T00:00:00.000Z}
+      INSIGHTS_PROVIDER: ${INSIGHTS_PROVIDER:-local}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+    volumes:
+      # The SQLite file lives on a named volume so it survives a container
+      # rebuild, and its -wal/-shm sidecars never land in the image or the repo.
+      - scan-db:/data
+
+volumes:
+  scan-db:
