@@ -49,4 +49,13 @@ describe("parseEnv", () => {
       /ANTHROPIC_API_KEY/,
     );
   });
+
+  it("rejects an EVENT_START_DATE that is not a timestamp at startup", () => {
+    expect(() => parseEnv({ ...base, EVENT_START_DATE: "next tuesday" })).toThrow(
+      /EVENT_START_DATE/,
+    );
+    expect(parseEnv({ ...base, EVENT_START_DATE: "2026-02-04" }).EVENT_START_DATE).toBe(
+      "2026-02-04",
+    );
+  });
 });

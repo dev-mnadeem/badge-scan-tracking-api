@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { DEFAULT_SCAN_PAGE_SIZE } from "./constants.js";
+import { toUtcMs } from "./time.js";
 
 const LOG_LEVELS = ["fatal", "error", "warn", "info", "debug", "trace"] as const;
 
@@ -9,6 +10,15 @@ const LOG_LEVELS = ["fatal", "error", "warn", "info", "debug", "trace"] as const
  * so a fresh clone and the test suite both run offline.
  */
 export const SCAN_PROVIDERS = ["http", "fake"] as const;
+
+function isTimestamp(value: string): boolean {
+  try {
+    toUtcMs(value);
+    return true;
+  } catch {
+    return false;
+  }
+}
 
 const EnvSchema = z
   .object({
@@ -25,7 +35,12 @@ const EnvSchema = z
     RETRY_BASE_DELAY_MS: z.coerce.number().int().min(0).default(1_000),
     RETRY_MAX_DELAY_MS: z.coerce.number().int().min(0).default(30_000),
 
-    EVENT_START_DATE: z.string().default(new Date(0).toISOString()),
+    EVENT_START_DATE: z
+      .string()
+      .default(new Date(0).toISOString())
+      .refine((value) => isTimestamp(value), {
+        message: "EVENT_START_DATE must be an ISO-8601 timestamp, e.g. 2026-02-04T00:00:00Z",
+      }),
     POLL_INTERVAL_CRON: z.string().default("*/5 * * * *"),
     POLL_ON_STARTUP: z
       .enum(["true", "false"])
