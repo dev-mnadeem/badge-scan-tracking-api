@@ -1,0 +1,2162 @@
+[
+  {
+    "badgeId": "badge-001",
+    "scanDate": "2026-02-04T09:10:59",
+    "customFields": [
+      {
+        "Booth Name": ""
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-001",
+    "scanDate": "2026-02-04T11:22:00",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-001",
+    "scanDate": "2026-02-04T12:09:17",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-001",
+    "scanDate": "2026-02-04T12:12:50",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-001",
+    "scanDate": "2026-02-04T12:32:45",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-001",
+    "scanDate": "2026-02-04T13:10:17",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-001",
+    "scanDate": "2026-02-04T13:50:53",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-001",
+    "scanDate": "2026-02-04T14:32:44",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-001",
+    "scanDate": "2026-02-04T14:43:47",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-001",
+    "scanDate": "2026-02-04T15:57:30",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-001",
+    "scanDate": "2026-02-04T16:40:40",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-002",
+    "scanDate": "2026-02-04T09:05:56",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-002",
+    "scanDate": "2026-02-04T10:21:28",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-002",
+    "scanDate": "2026-02-04T10:39:15",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-002",
+    "scanDate": "2026-02-04T13:37:56",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-002",
+    "scanDate": "2026-02-04T13:41:22",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-002",
+    "scanDate": "2026-02-04T14:20:11",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-002",
+    "scanDate": "2026-02-04T14:26:03",
+    "customFields": [
+      {
+        "Booth Name": ""
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-002",
+    "scanDate": "2026-02-04T14:29:12",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-002",
+    "scanDate": "2026-02-04T16:18:22",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-002",
+    "scanDate": "2026-02-04T16:37:36",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-002",
+    "scanDate": "2026-02-04T16:40:36",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-003",
+    "scanDate": "2026-02-04T11:43:16",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-003",
+    "scanDate": "2026-02-04T13:04:36",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-003",
+    "scanDate": "2026-02-04T15:04:40",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-004",
+    "scanDate": "2026-02-04T09:09:25",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-004",
+    "scanDate": "2026-02-04T12:48:49",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-004",
+    "scanDate": "2026-02-04T13:08:59",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-004",
+    "scanDate": "2026-02-04T13:20:18",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-004",
+    "scanDate": "2026-02-04T14:45:50",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-005",
+    "scanDate": "2026-02-04T09:38:34",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-005",
+    "scanDate": "2026-02-04T09:47:52",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-005",
+    "scanDate": "2026-02-04T09:57:12",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-005",
+    "scanDate": "2026-02-04T11:10:59",
+    "customFields": [
+      {
+        "Booth Name": ""
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-005",
+    "scanDate": "2026-02-04T11:25:03",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-005",
+    "scanDate": "2026-02-04T13:49:06",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-005",
+    "scanDate": "2026-02-04T14:52:30",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-005",
+    "scanDate": "2026-02-04T15:22:58",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-006",
+    "scanDate": "2026-02-04T11:20:00",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-006",
+    "scanDate": "2026-02-04T11:34:25",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-006",
+    "scanDate": "2026-02-04T12:28:53",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-006",
+    "scanDate": "2026-02-04T12:30:14",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-006",
+    "scanDate": "2026-02-04T13:48:24",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-006",
+    "scanDate": "2026-02-04T14:11:05",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-006",
+    "scanDate": "2026-02-04T14:20:47",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-006",
+    "scanDate": "2026-02-04T14:42:53",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-006",
+    "scanDate": "2026-02-04T15:48:41",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-007",
+    "scanDate": "2026-02-04T11:09:45",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-007",
+    "scanDate": "2026-02-04T11:33:53",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-007",
+    "scanDate": "2026-02-04T11:34:19",
+    "customFields": [
+      {
+        "Booth Name": ""
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-007",
+    "scanDate": "2026-02-04T11:53:01",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-007",
+    "scanDate": "2026-02-04T12:08:05",
+    "customFields": [
+      {
+        "Booth Name": ""
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-007",
+    "scanDate": "2026-02-04T13:25:16",
+    "customFields": [
+      {
+        "Booth Name": ""
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-007",
+    "scanDate": "2026-02-04T16:25:41",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-008",
+    "scanDate": "2026-02-04T09:14:53",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-008",
+    "scanDate": "2026-02-04T12:05:13",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-008",
+    "scanDate": "2026-02-04T12:36:13",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-008",
+    "scanDate": "2026-02-04T12:49:40",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-008",
+    "scanDate": "2026-02-04T12:56:45",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-008",
+    "scanDate": "2026-02-04T13:38:59",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-008",
+    "scanDate": "2026-02-04T13:52:20",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-008",
+    "scanDate": "2026-02-04T14:03:20",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-008",
+    "scanDate": "2026-02-04T14:04:20",
+    "customFields": [
+      {
+        "Booth Name": ""
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-008",
+    "scanDate": "2026-02-04T15:12:25",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-009",
+    "scanDate": "2026-02-04T10:07:51",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-009",
+    "scanDate": "2026-02-04T10:37:26",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-009",
+    "scanDate": "2026-02-04T11:19:01",
+    "customFields": [
+      {
+        "Booth Name": ""
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-009",
+    "scanDate": "2026-02-04T11:26:56",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-009",
+    "scanDate": "2026-02-04T12:37:57",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-009",
+    "scanDate": "2026-02-04T13:12:57",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-009",
+    "scanDate": "2026-02-04T13:36:29",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-009",
+    "scanDate": "2026-02-04T14:45:35",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-009",
+    "scanDate": "2026-02-04T15:40:59",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-010",
+    "scanDate": "2026-02-04T09:23:32",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-010",
+    "scanDate": "2026-02-04T09:58:07",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-010",
+    "scanDate": "2026-02-04T11:58:19",
+    "customFields": [
+      {
+        "Booth Name": ""
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-010",
+    "scanDate": "2026-02-04T12:18:42",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-010",
+    "scanDate": "2026-02-04T14:51:53",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-010",
+    "scanDate": "2026-02-04T16:09:58",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-011",
+    "scanDate": "2026-02-04T09:08:40",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-011",
+    "scanDate": "2026-02-04T09:40:09",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-011",
+    "scanDate": "2026-02-04T09:56:44",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-011",
+    "scanDate": "2026-02-04T10:05:26",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-011",
+    "scanDate": "2026-02-04T11:35:26",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-011",
+    "scanDate": "2026-02-04T12:22:29",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-011",
+    "scanDate": "2026-02-04T13:50:38",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-011",
+    "scanDate": "2026-02-04T14:00:24",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-011",
+    "scanDate": "2026-02-04T14:05:09",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-011",
+    "scanDate": "2026-02-04T14:28:10",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-011",
+    "scanDate": "2026-02-04T15:20:52",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-011",
+    "scanDate": "2026-02-04T15:41:41",
+    "customFields": [
+      {
+        "Booth Name": ""
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-011",
+    "scanDate": "2026-02-04T16:00:57",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-012",
+    "scanDate": "2026-02-04T12:17:34",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-012",
+    "scanDate": "2026-02-04T12:36:46",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-012",
+    "scanDate": "2026-02-04T12:43:05",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-012",
+    "scanDate": "2026-02-04T13:22:54",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-012",
+    "scanDate": "2026-02-04T15:12:31",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-013",
+    "scanDate": "2026-02-04T09:04:36",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-013",
+    "scanDate": "2026-02-04T09:24:55",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-013",
+    "scanDate": "2026-02-04T09:59:38",
+    "customFields": [
+      {
+        "Booth Name": ""
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-013",
+    "scanDate": "2026-02-04T10:41:43",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-013",
+    "scanDate": "2026-02-04T12:27:10",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-013",
+    "scanDate": "2026-02-04T12:48:27",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-013",
+    "scanDate": "2026-02-04T16:06:20",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-013",
+    "scanDate": "2026-02-04T16:12:49",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-014",
+    "scanDate": "2026-02-04T10:02:27",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-014",
+    "scanDate": "2026-02-04T10:41:09",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-014",
+    "scanDate": "2026-02-04T10:48:33",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-014",
+    "scanDate": "2026-02-04T11:48:59",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-014",
+    "scanDate": "2026-02-04T12:10:29",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-014",
+    "scanDate": "2026-02-04T15:23:34",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-014",
+    "scanDate": "2026-02-04T15:42:08",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-014",
+    "scanDate": "2026-02-04T16:12:19",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-014",
+    "scanDate": "2026-02-04T16:14:26",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-014",
+    "scanDate": "2026-02-04T16:14:33",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-015",
+    "scanDate": "2026-02-04T09:16:55",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-015",
+    "scanDate": "2026-02-04T09:47:01",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-015",
+    "scanDate": "2026-02-04T09:51:33",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-015",
+    "scanDate": "2026-02-04T10:14:19",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-015",
+    "scanDate": "2026-02-04T10:15:12",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-015",
+    "scanDate": "2026-02-04T10:23:22",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-015",
+    "scanDate": "2026-02-04T10:45:08",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-015",
+    "scanDate": "2026-02-04T13:21:30",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-015",
+    "scanDate": "2026-02-04T15:02:24",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-015",
+    "scanDate": "2026-02-04T15:14:39",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-016",
+    "scanDate": "2026-02-04T09:00:31",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-016",
+    "scanDate": "2026-02-04T09:04:59",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-016",
+    "scanDate": "2026-02-04T09:11:01",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-016",
+    "scanDate": "2026-02-04T10:42:35",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-016",
+    "scanDate": "2026-02-04T11:30:34",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-016",
+    "scanDate": "2026-02-04T12:07:52",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-016",
+    "scanDate": "2026-02-04T12:43:37",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-016",
+    "scanDate": "2026-02-04T15:28:33",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-017",
+    "scanDate": "2026-02-04T09:11:16",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-017",
+    "scanDate": "2026-02-04T09:33:43",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-017",
+    "scanDate": "2026-02-04T14:03:52",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-017",
+    "scanDate": "2026-02-04T14:28:47",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-017",
+    "scanDate": "2026-02-04T16:08:46",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-017",
+    "scanDate": "2026-02-04T16:19:59",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-017",
+    "scanDate": "2026-02-04T16:47:52",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-018",
+    "scanDate": "2026-02-04T10:02:47",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-018",
+    "scanDate": "2026-02-04T10:47:24",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-018",
+    "scanDate": "2026-02-04T10:49:11",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-018",
+    "scanDate": "2026-02-04T12:07:36",
+    "customFields": [
+      {
+        "Booth Name": ""
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-018",
+    "scanDate": "2026-02-04T12:20:50",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-018",
+    "scanDate": "2026-02-04T13:00:16",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-018",
+    "scanDate": "2026-02-04T13:01:39",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-018",
+    "scanDate": "2026-02-04T15:20:43",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-018",
+    "scanDate": "2026-02-04T16:58:05",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-019",
+    "scanDate": "2026-02-04T10:14:08",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-019",
+    "scanDate": "2026-02-04T11:02:00",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-019",
+    "scanDate": "2026-02-04T11:29:28",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-019",
+    "scanDate": "2026-02-04T11:48:22",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-019",
+    "scanDate": "2026-02-04T12:39:33",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-019",
+    "scanDate": "2026-02-04T14:17:44",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-019",
+    "scanDate": "2026-02-04T14:41:19",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-019",
+    "scanDate": "2026-02-04T15:25:02",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-019",
+    "scanDate": "2026-02-04T16:16:50",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-020",
+    "scanDate": "2026-02-04T10:01:33",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-020",
+    "scanDate": "2026-02-04T10:59:53",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-020",
+    "scanDate": "2026-02-04T12:23:12",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-020",
+    "scanDate": "2026-02-04T13:38:45",
+    "customFields": [
+      {
+        "Booth Name": ""
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-020",
+    "scanDate": "2026-02-04T13:47:39",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-020",
+    "scanDate": "2026-02-04T16:30:04",
+    "customFields": [
+      {
+        "Booth Name": ""
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-021",
+    "scanDate": "2026-02-04T10:12:03",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-021",
+    "scanDate": "2026-02-04T10:24:58",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-021",
+    "scanDate": "2026-02-04T10:40:33",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-021",
+    "scanDate": "2026-02-04T11:24:47",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-021",
+    "scanDate": "2026-02-04T11:26:26",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-021",
+    "scanDate": "2026-02-04T12:31:30",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-021",
+    "scanDate": "2026-02-04T13:21:43",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-021",
+    "scanDate": "2026-02-04T14:57:17",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-021",
+    "scanDate": "2026-02-04T15:57:49",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-022",
+    "scanDate": "2026-02-04T09:44:27",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-022",
+    "scanDate": "2026-02-04T09:54:00",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-022",
+    "scanDate": "2026-02-04T10:26:04",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-022",
+    "scanDate": "2026-02-04T11:37:09",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-022",
+    "scanDate": "2026-02-04T12:56:42",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-022",
+    "scanDate": "2026-02-04T13:12:25",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-022",
+    "scanDate": "2026-02-04T13:23:24",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-022",
+    "scanDate": "2026-02-04T13:41:14",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-022",
+    "scanDate": "2026-02-04T13:49:16",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-022",
+    "scanDate": "2026-02-04T14:26:43",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-022",
+    "scanDate": "2026-02-04T14:40:29",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-022",
+    "scanDate": "2026-02-04T15:06:54",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-022",
+    "scanDate": "2026-02-04T15:55:27",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-023",
+    "scanDate": "2026-02-04T09:11:57",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-023",
+    "scanDate": "2026-02-04T09:21:18",
+    "customFields": [
+      {
+        "Booth Name": ""
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-023",
+    "scanDate": "2026-02-04T09:45:28",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-023",
+    "scanDate": "2026-02-04T14:08:47",
+    "customFields": [
+      {
+        "Booth Name": ""
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-023",
+    "scanDate": "2026-02-04T16:13:08",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-024",
+    "scanDate": "2026-02-04T09:50:52",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-024",
+    "scanDate": "2026-02-04T09:58:12",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-024",
+    "scanDate": "2026-02-04T11:51:02",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-024",
+    "scanDate": "2026-02-04T11:56:23",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-024",
+    "scanDate": "2026-02-04T12:01:19",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-024",
+    "scanDate": "2026-02-04T12:46:47",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-024",
+    "scanDate": "2026-02-04T13:13:20",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-024",
+    "scanDate": "2026-02-04T13:26:00",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-024",
+    "scanDate": "2026-02-04T13:39:38",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-024",
+    "scanDate": "2026-02-04T15:07:45",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-024",
+    "scanDate": "2026-02-04T15:48:18",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-025",
+    "scanDate": "2026-02-04T14:07:31",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-025",
+    "scanDate": "2026-02-04T15:14:55",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-026",
+    "scanDate": "2026-02-04T10:22:00",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-026",
+    "scanDate": "2026-02-04T11:10:50",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-026",
+    "scanDate": "2026-02-04T13:40:33",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-026",
+    "scanDate": "2026-02-04T13:47:10",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-026",
+    "scanDate": "2026-02-04T14:22:33",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-026",
+    "scanDate": "2026-02-04T14:45:11",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-026",
+    "scanDate": "2026-02-04T15:29:33",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-027",
+    "scanDate": "2026-02-04T09:45:45",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-027",
+    "scanDate": "2026-02-04T11:03:12",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-027",
+    "scanDate": "2026-02-04T11:41:43",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-027",
+    "scanDate": "2026-02-04T11:44:06",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-027",
+    "scanDate": "2026-02-04T11:54:11",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-027",
+    "scanDate": "2026-02-04T12:32:58",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-027",
+    "scanDate": "2026-02-04T13:19:33",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-027",
+    "scanDate": "2026-02-04T14:08:59",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-027",
+    "scanDate": "2026-02-04T14:12:09",
+    "customFields": [
+      {
+        "Booth Name": ""
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-027",
+    "scanDate": "2026-02-04T14:28:28",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-027",
+    "scanDate": "2026-02-04T14:44:53",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-027",
+    "scanDate": "2026-02-04T16:50:18",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-028",
+    "scanDate": "2026-02-04T13:13:00",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-028",
+    "scanDate": "2026-02-04T14:41:51",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-028",
+    "scanDate": "2026-02-04T16:50:15",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-029",
+    "scanDate": "2026-02-04T09:52:52",
+    "customFields": [
+      {
+        "Booth Name": ""
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-029",
+    "scanDate": "2026-02-04T09:53:47",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-029",
+    "scanDate": "2026-02-04T11:11:32",
+    "customFields": [
+      {
+        "Booth Name": "Developer Sandbox"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-029",
+    "scanDate": "2026-02-04T12:15:57",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-029",
+    "scanDate": "2026-02-04T13:19:31",
+    "customFields": [
+      {
+        "Booth Name": "Security Arena"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-029",
+    "scanDate": "2026-02-04T13:48:27",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-029",
+    "scanDate": "2026-02-04T15:06:12",
+    "customFields": [
+      {
+        "Booth Name": ""
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-029",
+    "scanDate": "2026-02-04T15:19:37",
+    "customFields": [
+      {
+        "Booth Name": "Partner Pavilion"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-029",
+    "scanDate": "2026-02-04T16:58:44",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-030",
+    "scanDate": "2026-02-04T09:00:01",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-030",
+    "scanDate": "2026-02-04T09:00:41",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-030",
+    "scanDate": "2026-02-04T11:52:06",
+    "customFields": [
+      {
+        "Booth Name": "Cisco Showcase"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-030",
+    "scanDate": "2026-02-04T13:06:52",
+    "customFields": [
+      {
+        "Booth Name": "Observability Lab"
+      }
+    ]
+  },
+  {
+    "badgeId": "badge-030",
+    "scanDate": "2026-02-04T16:37:40",
+    "customFields": [
+      {
+        "Booth Name": "Splunk Cafe"
+      }
+    ]
+  }
+]
