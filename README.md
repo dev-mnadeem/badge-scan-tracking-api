@@ -202,3 +202,12 @@ the image build and container boot have **not** been run here.
 - One process owns the cursor. The overlap guard lives in memory, so two instances against one
   database would duplicate the upstream traffic — inserts stay correct, the work does not.
 - The `http` provider is tested against a stubbed HTTP client, not the live EventsCloud API.
+
+## Fixture run
+
+![Native API responses](docs/screenshots/native-api.png)
+
+The native process polled the bundled scan fixture into a fresh SQLite file and
+served its leaderboard and local event briefing over HTTP. The capture displays
+those actual responses. [Exchange record](docs/native-api.json). No upstream scan
+API or hosted model was contacted.

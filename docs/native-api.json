@@ -1,0 +1,269 @@
+{
+  "mode": "native disposable database; fixture data only",
+  "exchanges": [
+    {
+      "request": "GET /metrics",
+      "status": 200,
+      "response": {
+        "success": true,
+        "data": {
+          "uptimeSeconds": 0,
+          "scanProvider": "fake",
+          "poll": {
+            "cyclesStarted": 1,
+            "cyclesSucceeded": 1,
+            "cyclesFailed": 0,
+            "cyclesSkippedOverlapping": 0,
+            "batchesProcessed": 1,
+            "scansSeen": 240,
+            "scansSkippedNoBooth": 19,
+            "scansInserted": 221,
+            "lastCycleStartedAt": "2026-10-28T14:38:23.270Z",
+            "lastCycleSucceededAt": "2026-10-28T14:38:23.274Z",
+            "lastCycleDurationMs": 4,
+            "lastError": null
+          },
+          "checkpoint": {
+            "lastScanDate": "2026-02-04T16:58:44",
+            "updatedAt": "2026-10-28 14:38:23"
+          },
+          "storage": {
+            "scansStored": 221
+          },
+          "websocket": {
+            "connectedClients": 0
+          }
+        },
+        "error": null
+      }
+    },
+    {
+      "request": "GET /players",
+      "status": 200,
+      "response": {
+        "success": true,
+        "data": {
+          "players": [
+            {
+              "badgeId": "badge-022",
+              "scanCount": 13,
+              "lastScanDate": "2026-02-04T15:55:27"
+            },
+            {
+              "badgeId": "badge-011",
+              "scanCount": 12,
+              "lastScanDate": "2026-02-04T16:00:57"
+            },
+            {
+              "badgeId": "badge-024",
+              "scanCount": 11,
+              "lastScanDate": "2026-02-04T15:48:18"
+            },
+            {
+              "badgeId": "badge-027",
+              "scanCount": 11,
+              "lastScanDate": "2026-02-04T16:50:18"
+            },
+            {
+              "badgeId": "badge-001",
+              "scanCount": 10,
+              "lastScanDate": "2026-02-04T16:40:40"
+            },
+            {
+              "badgeId": "badge-002",
+              "scanCount": 10,
+              "lastScanDate": "2026-02-04T16:40:36"
+            },
+            {
+              "badgeId": "badge-014",
+              "scanCount": 10,
+              "lastScanDate": "2026-02-04T16:14:33"
+            },
+            {
+              "badgeId": "badge-015",
+              "scanCount": 10,
+              "lastScanDate": "2026-02-04T15:14:39"
+            },
+            {
+              "badgeId": "badge-006",
+              "scanCount": 9,
+              "lastScanDate": "2026-02-04T15:48:41"
+            },
+            {
+              "badgeId": "badge-008",
+              "scanCount": 9,
+              "lastScanDate": "2026-02-04T15:12:25"
+            },
+            {
+              "badgeId": "badge-019",
+              "scanCount": 9,
+              "lastScanDate": "2026-02-04T16:16:50"
+            },
+            {
+              "badgeId": "badge-021",
+              "scanCount": 9,
+              "lastScanDate": "2026-02-04T15:57:49"
+            },
+            {
+              "badgeId": "badge-009",
+              "scanCount": 8,
+              "lastScanDate": "2026-02-04T15:40:59"
+            },
+            {
+              "badgeId": "badge-016",
+              "scanCount": 8,
+              "lastScanDate": "2026-02-04T15:28:33"
+            },
+            {
+              "badgeId": "badge-018",
+              "scanCount": 8,
+              "lastScanDate": "2026-02-04T16:58:05"
+            },
+            {
+              "badgeId": "badge-005",
+              "scanCount": 7,
+              "lastScanDate": "2026-02-04T15:22:58"
+            },
+            {
+              "badgeId": "badge-013",
+              "scanCount": 7,
+              "lastScanDate": "2026-02-04T16:12:49"
+            },
+            {
+              "badgeId": "badge-017",
+              "scanCount": 7,
+              "lastScanDate": "2026-02-04T16:47:52"
+            },
+            {
+              "badgeId": "badge-026",
+              "scanCount": 7,
+              "lastScanDate": "2026-02-04T15:29:33"
+            },
+            {
+              "badgeId": "badge-029",
+              "scanCount": 7,
+              "lastScanDate": "2026-02-04T16:58:44"
+            },
+            {
+              "badgeId": "badge-004",
+              "scanCount": 5,
+              "lastScanDate": "2026-02-04T14:45:50"
+            },
+            {
+              "badgeId": "badge-010",
+              "scanCount": 5,
+              "lastScanDate": "2026-02-04T16:09:58"
+            },
+            {
+              "badgeId": "badge-012",
+              "scanCount": 5,
+              "lastScanDate": "2026-02-04T15:12:31"
+            },
+            {
+              "badgeId": "badge-030",
+              "scanCount": 5,
+              "lastScanDate": "2026-02-04T16:37:40"
+            },
+            {
+              "badgeId": "badge-007",
+              "scanCount": 4,
+              "lastScanDate": "2026-02-04T16:25:41"
+            },
+            {
+              "badgeId": "badge-020",
+              "scanCount": 4,
+              "lastScanDate": "2026-02-04T13:47:39"
+            },
+            {
+              "badgeId": "badge-003",
+              "scanCount": 3,
+              "lastScanDate": "2026-02-04T15:04:40"
+            },
+            {
+              "badgeId": "badge-023",
+              "scanCount": 3,
+              "lastScanDate": "2026-02-04T16:13:08"
+            },
+            {
+              "badgeId": "badge-028",
+              "scanCount": 3,
+              "lastScanDate": "2026-02-04T16:50:15"
+            },
+            {
+              "badgeId": "badge-025",
+              "scanCount": 2,
+              "lastScanDate": "2026-02-04T15:14:55"
+            }
+          ],
+          "total": 30,
+          "limit": 50,
+          "offset": 0
+        },
+        "error": null
+      }
+    },
+    {
+      "request": "GET /insights/summary",
+      "status": 200,
+      "response": {
+        "success": true,
+        "data": {
+          "provider": "local",
+          "text": "221 booth scans have been recorded from 30 attendees across 6 booths, an average of 7.37 scans per attendee. Developer Sandbox is the busiest booth with 43 scans from 25 distinct attendees. Observability Lab is the quietest of the booths reported here with 30 scans. Engagement ranges from 2 to 13 scans per attendee. The most recent scan ingested is dated 2026-02-04T16:58:44.",
+          "stats": {
+            "totalScans": 221,
+            "totalPlayers": 30,
+            "totalBooths": 6,
+            "averageScansPerPlayer": 7.37,
+            "busiestBooth": {
+              "boothName": "Developer Sandbox",
+              "scanCount": 43,
+              "uniquePlayers": 25
+            },
+            "quietestBooth": {
+              "boothName": "Observability Lab",
+              "scanCount": 30,
+              "uniquePlayers": 20
+            },
+            "booths": [
+              {
+                "boothName": "Developer Sandbox",
+                "scanCount": 43,
+                "uniquePlayers": 25
+              },
+              {
+                "boothName": "Security Arena",
+                "scanCount": 42,
+                "uniquePlayers": 26
+              },
+              {
+                "boothName": "Partner Pavilion",
+                "scanCount": 39,
+                "uniquePlayers": 24
+              },
+              {
+                "boothName": "Splunk Cafe",
+                "scanCount": 35,
+                "uniquePlayers": 21
+              },
+              {
+                "boothName": "Cisco Showcase",
+                "scanCount": 32,
+                "uniquePlayers": 20
+              },
+              {
+                "boothName": "Observability Lab",
+                "scanCount": 30,
+                "uniquePlayers": 20
+              }
+            ],
+            "topPlayerScanCount": 13,
+            "bottomPlayerScanCount": 2,
+            "lastScanDate": "2026-02-04T16:58:44"
+          }
+        },
+        "error": null
+      }
+    }
+  ]
+}
