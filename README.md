@@ -211,3 +211,7 @@ The native process polled the bundled scan fixture into a fresh SQLite file and
 served its leaderboard and local event briefing over HTTP. The capture displays
 those actual responses. [Exchange record](docs/native-api.json). No upstream scan
 API or hosted model was contacted.
+
+## Author
+
+[**Muhammad Nadeem**](https://github.com/dev-mnadeem)
